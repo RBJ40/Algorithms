@@ -84,14 +84,14 @@ function getHistory() {
   let draw = 0;
 
   for (let i = 0; i < history.length; i++) {
-    if (history[i] == "win") {
+    /* if (history[i] == "win") { selection
       win++;
     } else if (history[i] == "lose") {
       lose++;
     } else {
       draw++;
     }
-
+ */
     DOMSelectors.history.insertAdjacentHTML(
       "afterbegin",
       `<div class="historyCard" id="${history[i]}">
