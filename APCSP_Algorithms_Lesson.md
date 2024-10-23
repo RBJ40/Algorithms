@@ -133,9 +133,23 @@ for i <= n:
 ```
 
 **JavaScript**:
+**Occupied Spaces**
+
+```
+Input n
+
+```
 
 ```javascript
+function parking(1<=n<=100) {
+   ()
+  if (n == true) {
+    console.log("C");
+  } else {
+    console.log(".");
+  }
 
+}
 ```
 
 ---

@@ -11,14 +11,14 @@ const history = [];
 function returnInput(input) {
   let output;
 
-  if (input == 0) {
+  /*   if (input == 0) {     
     output = "rock";
   } else if (input == 1) {
     output = "paper";
   } else {
     output = "scissors";
-  }
-
+  }          selection
+ */
   return output;
 }
 
@@ -27,8 +27,8 @@ function rockPaperScissors(input) {
   let opponentChoice;
   let outcome;
 
-  for (let i = 0; i <= random; i++) {
-    if (i % 3 == 0) {
+  // for (let i = 0; i <= random; i++) {       iteration
+    /* if (i % 3 == 0) {
       opponentChoice = "rock";
     } else if (i % 2 == 0) {
       opponentChoice = "paper";
@@ -59,9 +59,9 @@ function rockPaperScissors(input) {
     } else if (input == 1) {
       outcome = "lose";
     } else {
-      outcome = "draw";
-    }
-  }
+      outcome = "draw";             selection     
+    }     
+   }  */
   history.push(outcome);
 
   DOMSelectors.history.innerHTML = "";
@@ -83,8 +83,8 @@ function getHistory() {
   let lose = 0;
   let draw = 0;
 
-  for (let i = 0; i < history.length; i++) {
-    /* if (history[i] == "win") { selection
+  // for (let i = 0; i < history.length; i++) {     iteration
+    /* if (history[i] == "win") {          selection
       win++;
     } else if (history[i] == "lose") {
       lose++;
