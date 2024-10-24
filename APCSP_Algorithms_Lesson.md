@@ -152,4 +152,7 @@ function parking(1<=n<=100) {
 }
 ```
 
+function convertdecimal(input binary):
+let
+
 ---
